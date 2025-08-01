@@ -1,13 +1,17 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { courses } from '@/data/courses';
+import { programData } from '@/data/courses';
 import CourseTable from './CourseTable';
 import { calculateDaysLeft } from '@/utils/dateUtils';
 
 export default function CourseList() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedSemester, setSelectedSemester] = useState('ALL');
+  const [selectedProgram, setSelectedProgram] = useState('bcis');
+
+  const currentProgram = programData[selectedProgram];
+  const courses = currentProgram.courses;
 
   const filteredAndSortedCourses = useMemo(() => {
     const filtered = courses.filter(course => {
@@ -26,7 +30,7 @@ export default function CourseList() {
     });
 
     return filtered;
-  }, [searchTerm, selectedSemester]);
+  }, [searchTerm, selectedSemester, courses]);
 
   const semesterStats = useMemo(() => {
     const semesterCourses = selectedSemester === 'ALL' 
@@ -37,19 +41,22 @@ export default function CourseList() {
     const completed = total - upcoming;
     
     return { total, upcoming, completed };
-  }, [selectedSemester]);
+  }, [selectedSemester, courses]);
 
   const availableSemesters = useMemo(() => {
     const semesters = [...new Set(courses.map(course => course.semester))];
     return semesters.sort((a, b) => parseInt(a) - parseInt(b));
-  }, []);
+  }, [courses]);
+
+  const programs = Object.keys(programData);
 
   return (
     <div className="space-y-6">
       <div className="bg-[#1A82C4] rounded-lg p-6 text-white">
-        <h1 className="text-3xl font-bold mb-2">BCIS Exam Schedule</h1>
-        <p className="text-blue-100 mb-2">Track your upcoming board exams with countdown timers</p>
-        <p className="text-blue-200 text-sm mb-4">Medhavi College Students • Exam Center: APEX College</p>
+        <h1 className="text-3xl font-bold mb-2">Exam Schedule</h1>
+        <p className="text-white text-lg mb-2">Track your upcoming board exams with countdown timers</p>
+        <p className="text-white text-lg mb-4">Medhavi College Students • Exam Center: {currentProgram.examCenter}</p>
+        
         <div className="grid grid-cols-3 gap-4">
           <div className="text-center">
             <div className="text-2xl font-bold">{semesterStats.total}</div>
@@ -65,6 +72,27 @@ export default function CourseList() {
             <div className="text-2xl font-bold text-orange-300">{semesterStats.completed}</div>
             <div className="text-sm text-blue-100">Completed</div>
           </div>
+        </div>
+      </div>
+
+      <div className="bg-[#1A82C4] rounded-lg p-4">
+        <div className="grid grid-cols-3 gap-1">
+          {programs.map((programKey) => {
+            const program = programData[programKey];
+            return (
+              <button
+                key={programKey}
+                onClick={() => setSelectedProgram(programKey)}
+                className={`px-4 py-3 rounded-md font-medium transition-colors ${
+                  selectedProgram === programKey
+                    ? 'bg-white text-[#1A82C4]'
+                    : 'text-white hover:bg-white/20'
+                }`}
+              >
+                {program.name}
+              </button>
+            );
+          })}
         </div>
       </div>
 

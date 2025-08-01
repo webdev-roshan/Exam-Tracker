@@ -1,0 +1,35 @@
+Date,Course Title,Semester
+2025-08-01,English I (Old)/ Business Communication for Hospitality Industry (New),I
+2025-08-02,General Psychology,IV
+2025-08-03,Food and Beverage Service I (Old/New),I
+2025-08-04,Fundamentals of Tourism and Hospitality (Old/New),I
+2025-08-05,English II,II
+2025-08-06,Strategic Management,VI
+2025-08-07,Fundamentals of Statistics,V
+2025-08-08,Hospitality Accounting II,IV
+2025-08-09,Tourism Business Environment,VI
+2025-08-10,Basic Mathematics/Fundation of Management,II
+2025-08-11,Food and Beverage Service IV (Old/New),IV
+2025-08-12,Fundamentals of Entrepreneurship,VI
+2025-08-13,Food Production and Patisserie II (Old/New),II
+2025-08-14,Business Communication for the Hotel Industry,IV
+2025-08-15,Tourism Economics,VI
+2025-08-16,Introduction to Management Information System (Old/New),III
+2025-08-17,Room Division Management II (Old/New),IV
+2025-08-18,Food and Beverage Service II (Old/New),II
+2025-08-19,Hospitality Accounting I (Old)/ Hospitality Statistics (New),III
+2025-08-20,Food Productions and Patisserie IV (Old/New),IV
+2025-08-21,Fundamentals of Financial Management,V
+2025-08-22,Food Hygiene and Nutrition (Old/New),II
+2025-08-23,Food Production and Patisserie III (Old/New),III
+2025-08-24,Accommodation Operation I (Old/New),I
+2025-08-25,Hospitality Marketing (Old/New),V/IV
+2025-08-27,Room Division Management I (Old/New),III
+2025-08-28,Business Research Methods,V
+2025-08-29,Accommodation Operation II (Old/New),II
+2025-08-30,Fundamentals of Sociology,III
+2025-08-31,Hospitality Accounting and Costing,IV
+2025-09-01,Hospitality Human Resource Management,V
+2025-09-02,Food and Beverage Service III (Old/New),III
+2025-09-03,Principles of Management,II
+2025-09-04,Food Production and Patisserie I (Old/New),I

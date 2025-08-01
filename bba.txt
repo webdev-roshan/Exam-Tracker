@@ -1,0 +1,39 @@
+| Date       | Course Title                                         | Semester |
+| ---------- | ---------------------------------------------------- | -------- |
+| 2025-08-01 | English I/English (New)                              | I        |
+| 2025-08-02 | General Psychology                                   | II       |
+| 2025-08-03 | Business Mathematics I/Basic Mathematics             | I        |
+| 2025-08-04 | Computer and IT Applications/ IT for Business        | I        |
+| 2025-08-05 | English II                                           | II       |
+| 2025-08-06 | Strategic Management                                 | VIII     |
+| 2025-08-07 | Business and Society                                 | VI       |
+| 2025-08-08 | Basics of Managerial Accounting                      | V        |
+| 2025-08-09 | Introduction to International Business               | VIII     |
+| 2025-08-10 | Legal Aspects of Business and Technology             | VI       |
+| 2025-08-11 | Business Communication II                            | IV       |
+| 2025-08-12 | Fundamentals of Entrepreneurship                     | VII      |
+| 2025-08-13 | Essentials of e-Business                             | VIII     |
+| 2025-08-14 | Business Mathematics                                 | II       |
+| 2025-08-15 | Business Environment in Nepal                        | VII      |
+| 2025-08-16 | Introduction to Management Information System        | VI       |
+| 2025-08-17 | Fundamentals of Operations Management                | V        |
+| 2025-08-18 | Financial Management                                 | IV       |
+| 2025-08-19 | Management of Human Resources                        | V        |
+| 2025-08-20 | Financial Accounting                                 | II       |
+| 2025-08-21 | Essentials of Finance                                | III      |
+| 2025-08-22 | Business Communication I                             | III      |
+| 2025-08-23 | Principles of Marketing                              | IV       |
+| 2025-08-24 | Introductory Microeconomics                          | II       |
+| 2025-08-25 | Business Communication                               | II       |
+| 2025-08-27 | Fundamentals of Organizational Behaviour             | IV       |
+| 2025-08-28 | Business Research Methods                            | V        |
+| 2025-08-29 | Business Mathematics II                              | II       |
+| 2025-08-30 | Fundamentals of Sociology                            | III      |
+| 2025-08-31 | Introduction to Microeconomics                       | II       |
+| 2025-09-01 | Introductory Macroeconomics                          | III      |
+| 2025-09-02 | Data Analysis and Modeling/ Behavioral Science (New) | IV/I     |
+| 2025-09-03 | Principles of Management (Old/New)                   | I        |
+| 2025-09-04 | Financial Accounting I                               | I        |
+| 2025-09-05 | Business Statistics                                  | III      |
+| 2025-09-06 | Financial Accounting II                              | II       |
+| 2025-09-07 | Fundamentals of Organizational Behavior              | II       |
