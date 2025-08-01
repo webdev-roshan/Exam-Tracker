@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Course Countdown - Track Your Academic Schedule",
-  description: "A comprehensive course schedule tracker with countdown timers in both English and Nepali dates",
+  title: "Exam Tracker",
+  description: "Track your board exams for BCIS, BBA and BHM",
 };
 
 export default function RootLayout({
