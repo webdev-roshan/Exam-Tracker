@@ -9,11 +9,11 @@ interface CourseTableProps {
 }
 
 export default function CourseTable({ courses }: CourseTableProps) {
-  const [currentTime, setCurrentTime] = useState(new Date());
+  const [, setTick] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentTime(new Date());
+      setTick(prev => prev + 1);
     }, 1000);
 
     return () => clearInterval(timer);

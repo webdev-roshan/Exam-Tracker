@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { courses, Course } from '@/data/courses';
+import { courses } from '@/data/courses';
 import CourseTable from './CourseTable';
 import { calculateDaysLeft } from '@/utils/dateUtils';
 
@@ -10,9 +10,7 @@ export default function CourseList() {
   const [selectedSemester, setSelectedSemester] = useState('ALL');
 
   const filteredAndSortedCourses = useMemo(() => {
-    let filtered = courses.filter(course => {
-      const dateInfo = calculateDaysLeft(course.date);
-      
+    const filtered = courses.filter(course => {
       const matchesSemester = selectedSemester === 'ALL' || course.semester === selectedSemester;
       
       const matchesSearch = course.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
