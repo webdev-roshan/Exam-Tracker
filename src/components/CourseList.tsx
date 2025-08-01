@@ -59,8 +59,8 @@ export default function CourseList() {
     <div className="space-y-6">
       <div className="bg-[#1A82C4] rounded-lg p-6 text-white">
         <h1 className="text-3xl font-bold mb-2">Exam Schedule</h1>
-        <p className="text-blue-100 mb-2">Track your upcoming board exams with countdown timers</p>
-        <p className="text-blue-200 text-sm mb-4">Medhavi College Students • Exam Center: {currentProgram.examCenter}</p>
+        <p className="text-white text-lg mb-2">Track your upcoming board exams with countdown timers</p>
+        <p className="text-white text-lg mb-4">Medhavi College Students • Exam Center: {currentProgram.examCenter}</p>
         
         <div className="grid grid-cols-3 gap-4">
           <div className="text-center">

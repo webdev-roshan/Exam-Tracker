@@ -549,7 +549,7 @@ export const programData: Record<string, ProgramData> = {
   bhm: {
     name: "BHM",
     fullName: "Bachelor of Hotel Management",
-    examCenter: "TBD",
+    examCenter: "Google It",
     courses: [
       {
         id: "bhm-1",
